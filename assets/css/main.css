@@ -2417,27 +2417,27 @@
 			}
 
 			.icon.major.accent1 {
-				background: #666;
+				background: #A00000;
 				color: #ffffff;
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #A00000;
 				color: #ffffff;
 			}
 
 			.icon.major.accent3 {
-				background: #7fcdb8;
+				background: #A00000;
 				color: #ffffff;
 			}
 
 			.icon.major.accent4 {
-				background: #90b0ba;
+				background: #A00000;
 				color: #ffffff;
 			}
 
 			.icon.major.accent5 {
-				background: #e5cb95;
+				background: #A00000;
 				color: #ffffff;
 			}
 
@@ -3164,7 +3164,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/crop-woman-making-blueprints.jpg");
+		background-image: url("images/overlay.png"), url("../../images/VERMELHO.png");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3304,7 +3304,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #A00000;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
