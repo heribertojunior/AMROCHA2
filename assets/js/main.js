@@ -88,7 +88,7 @@
 
 jQuery(document).ready(function($){
 	var itemInfoWrapper = $('.cd-single-item');
-	
+
 	itemInfoWrapper.each(function(){
 		var container = $(this),
 			// create slider pagination
@@ -97,15 +97,15 @@ jQuery(document).ready(function($){
 		//update slider navigation visibility
 		updateNavigation(container, container.find('.cd-slider li').eq(0));
 
-		container.find('.cd-slider').on('click', function(event){
+
 			//enlarge slider images
-			if( !container.hasClass('cd-slider-active') && $(event.target).is('.cd-slider')) {
+
 				itemInfoWrapper.removeClass('cd-slider-active');
 				container.addClass('cd-slider-active').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 					$('body,html').animate({'scrollTop':container.offset().top}, 200);
 				});
-			}
-		});
+
+		
 
 		container.find('.cd-close').on('click', function(){
 			//shrink slider images
